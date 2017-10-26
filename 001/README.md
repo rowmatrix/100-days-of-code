@@ -18,8 +18,8 @@ Each expression should be evaluated in your program.
 
 **Run program**
 
-cd 001/
+`cd 001/`
 
-gcc -Wall -o ../bin/day1 day1.c
+`gcc -Wall -o ../bin/day1 day1.c`
 
-./../bin/day1
+`./../bin/day1`
