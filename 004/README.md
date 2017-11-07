@@ -33,6 +33,7 @@ a is not a positive integer
 
 
 Please enter a positive integer: 93
+COMPOSITE
 Largest number that divides 93 evenly is 31
 Largest prime number that divides 93 evenly is 31
 Prime factors = 3 * 31
@@ -40,6 +41,7 @@ Largest integer factor set = 3 * 31
 
 
 Please enter a positive integer: 99
+COMPOSITE
 Largest number that divides 99 evenly is 33
 Largest prime number that divides 99 evenly is 11
 Prime factors = 3 * 3 * 11
@@ -51,6 +53,7 @@ PRIME
 
 
 Please enter a positive integer: 90
+COMPOSITE
 Largest number that divides 90 evenly is 45
 Largest prime number that divides 90 evenly is 5
 Prime factors = 2* 3 * 3 * 5
