@@ -41,7 +41,7 @@ Largest integer factor set = 3 * 31
 
 Please enter a positive integer: 99
 Largest number that divides 99 evenly is 33
-Largest prime number that divides 93 evenly is 11
+Largest prime number that divides 99 evenly is 11
 Prime factors = 3 * 3 * 11
 Largest integer factor set = 3 * 33
 
