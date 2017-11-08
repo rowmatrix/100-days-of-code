@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include <ctype.h>
 
@@ -6,7 +7,7 @@
 #define FALSE 0
 
 /********** function prototypes **********/
-int  readInput();
+void readInput(char*);
 int  isPrime(int);
 void largestInt(int);
 void largestPrime(int);
@@ -14,12 +15,12 @@ void primeFactors(int);
 void largestIntFactors(int);
 
 /*********** functions ***********/
-int readInput()
+void readInput(char *u_in)
 {
-    int n = 0;
+    /*int n = 0;*/
     printf("Please enter a positive integer: "); 
-    scanf(" %d", &n);
-    return n;
+    /*scanf("%d", &n);*/
+    fgets(u_in, 100, stdin);
 }
 
 void largestPrime(int n)
@@ -86,12 +87,14 @@ void largestIntFactors(int n)
 /************ main ************/
 int main() 
 {
+    char u_input[100];
     int num = 0;
-    
-    num = readInput();
-    
+
+    readInput(u_input);
+    num = atoi(u_input);
+
     while (num != 'q') {
-        if (num < 0 && isalpha(num)) {
+        if (isalpha(num) || num < 0) {
             printf("%d is not a positive integer\n\n", num);
         } 
         else {
@@ -106,7 +109,7 @@ int main()
                 printf("PRIME\n\n");
             }
         }
-        num = readInput();
+        readInput(u_input);
     }
 
     printf("Thank you for using my program.\n");
