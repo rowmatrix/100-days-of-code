@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <math.h>
 #include <ctype.h>
 
@@ -21,6 +22,14 @@ void readInput(char *u_in)
     printf("Please enter a positive integer: "); 
     /*scanf("%d", &n);*/
     fgets(u_in, 100, stdin);
+    if (!u_in) {
+        fprintf(stderr, "Error in input.\n");
+        exit(1);
+    }
+    else if (strlen(u_in) > sizeof(int)) {
+        fprintf(stderr, "Too long\n");
+        exit(1);
+    }
 }
 
 void largestPrime(int n)
@@ -87,15 +96,15 @@ void largestIntFactors(int n)
 /************ main ************/
 int main() 
 {
-    char u_input[100];
+    char u_input[100] = "";
     int num = 0;
 
     readInput(u_input);
-    num = atoi(u_input);
 
-    while (num != 'q') {
-        if (isalpha(num) || num < 0) {
-            printf("%d is not a positive integer\n\n", num);
+    while (u_input[0] != 'q') {
+        num = atoi(u_input); 
+        if (num <= 0) {
+            printf("%c is not a positive integer\n\n", u_input[0]);
         } 
         else {
             if (!isPrime(num)) {
