@@ -68,7 +68,7 @@ John      100      20      30     50.00
 Paul       20      20       0     13.33
 
 Avg     67.50   46.25   55.00     56.25
-StdD    39.48   37.72   47.96     35.70
+StdD    39.48   37.72   47.96     41.72
 ```
 
 Prompt the user the correct number of times depending on number of students and assignments.

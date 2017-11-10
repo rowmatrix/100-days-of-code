@@ -68,16 +68,16 @@ void printScores(char students[20][50], float scores[20][10], int numStudents, i
         printf("%.2f\t", avg);
         sumAvg += avg;
     }
-    printf("%.2f\n", sumAvg/(float)numStudents);
+    printf("%.2f\n", sumAvg/(float)numAssignments);
 
     printf("StdD\t");
     float sumStdD = 0, stdD;
-    for (j = 0; j < numAssignments; j++) {
-        stdD = getStandardDeviationForAssignment(scores, numStudents, j);
+    for (i = 0; i < numAssignments; i++) {
+        stdD = getStandardDeviationForAssignment(scores, numStudents, i);
         printf("%.2f\t", stdD);
         sumStdD += stdD;
     }
-    printf("%.2f\n", sumStdD/(float)numStudents);
+    printf("%.2f\n", sumStdD/(float)numAssignments);
 }
 
 /* collects student names and scores from the user */
