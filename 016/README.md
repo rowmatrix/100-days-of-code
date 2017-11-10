@@ -22,7 +22,7 @@ float getAverageForAssignment(float scores[20][10], int numStudents, int assignm
 }
 
 /* find the standard deviation for all students for an individual assignment */
-float getStandardDeviationForAssignment(float scores[20][10], int numStudents, int numAssignments) {
+float getStandardDeviationForAssignment(float scores[20][10], int numStudents, int assignment) {
 
 }
 
