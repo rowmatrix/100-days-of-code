@@ -54,10 +54,10 @@ void printScores(char students[20][50], float scores[20][10], int numStudents, i
     for (i = 0; i < numStudents; i++) {
         printf("%s\t", students[i]);
         for (j = 0; j < numAssignments; j++) {
-            printf("%d\t", (int)scores[i][j]);
+            printf("%5d\t", (int)scores[i][j]);
         }
         
-        printf("%.2f\n", getAverageForStudent(scores, i, numAssignments));
+        printf("%7.2f\n", getAverageForStudent(scores, i, numAssignments));
     }
 
     /* print assignment averages and standard deviations */
@@ -65,19 +65,19 @@ void printScores(char students[20][50], float scores[20][10], int numStudents, i
     float sumAvg = 0, avg;
     for (i = 0; i < numAssignments; i++) {
         avg = getAverageForAssignment(scores, numStudents, i);
-        printf("%.2f\t", avg);
+        printf("%5.2f\t", avg);
         sumAvg += avg;
     }
-    printf("%.2f\n", sumAvg/(float)numAssignments);
+    printf("%7.2f\n", sumAvg/(float)numAssignments);
 
     printf("StdD\t");
     float sumStdD = 0, stdD;
     for (i = 0; i < numAssignments; i++) {
         stdD = getStandardDeviationForAssignment(scores, numStudents, i);
-        printf("%.2f\t", stdD);
+        printf("%5.2f\t", stdD);
         sumStdD += stdD;
     }
-    printf("%.2f\n", sumStdD/(float)numAssignments);
+    printf("%7.2f\n", sumStdD/(float)numAssignments);
 }
 
 /* collects student names and scores from the user */
