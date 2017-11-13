@@ -8,3 +8,4 @@
 | 004 | Oct 28, 2017 - Nov 7, 2017 | [extending 003 program adding logic to it](004) | review functions; continuing with vim/tmux  |
 | 015 | Nov 8, 2017 | [program to perform temperature conversions](015) | continue review of functions, loops, control structures, parsing input  |
 | 016 | Nov 9, 2017 - Nov 10, 2017 | [program to provide class grade statistics](016) | review arrays, strings, multiple functions, text justification output, statistics  |
+| 020 | Nov 13, 2017 | [program to check for palindromes and sub-anagrams](020) | manipulating strings & C string functions  |
