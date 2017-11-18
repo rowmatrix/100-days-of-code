@@ -12,4 +12,5 @@
 | 021 | Nov 14, 2017 | [](020) | setup gdb on macOS Sierra  |
 | 022 | Nov 15, 2017 |  | macOS Sierra uses lldb  |
 | 023 | Nov 16, 2017 | [golang playground intro](https://play.golang.org/p/v3rrZLwEUC) | Golang playground  |
-| 024 | Nov 17, 2017 | [Hello World](https://play.golang.org/p/o2NYwbQ7Ig) | basic setup of a Go program: package fmt, import, main function  |
+| 024 | Nov 17, 2017 | [hello world](https://play.golang.org/p/o2NYwbQ7Ig) | basic setup of a Go program: package fmt, import, main function  |
+| 025 | Nov 18, 2017 | [short declaration operator](https://play.golang.org/p/GF93YArR2B) | short declaration operator (`:=`)  |
