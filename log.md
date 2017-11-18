@@ -10,3 +10,6 @@
 | 016 | Nov 9, 2017 - Nov 10, 2017 | [program to provide class grade statistics](016) | review arrays, strings, multiple functions, text justification output, statistics  |
 | 020 | Nov 13, 2017 | [program to check for palindromes and sub-anagrams](020) | manipulating strings & C string functions  |
 | 021 | Nov 14, 2017 | [](020) | setup gdb on macOS Sierra  |
+| 022 | Nov 15, 2017 |  | macOS Sierra uses lldb  |
+| 023 | Nov 16, 2017 | [golang playground intro](https://play.golang.org/p/v3rrZLwEUC) | Golang playground  |
+| 024 | Nov 17, 2017 | [Hello World](https://play.golang.org/p/o2NYwbQ7Ig) | basic setup of a Go program: package fmt, import, main function  |

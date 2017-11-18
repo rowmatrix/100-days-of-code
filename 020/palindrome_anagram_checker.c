@@ -6,7 +6,6 @@
 #define TRUE 1
 #define FALSE 0
 
-
 /*
  *  yesOrNo parameters
  *
@@ -53,12 +52,21 @@ int yesOrNo(int choice)
 void enterFirstString(char *str)
 {
     char buf[100];
+    /*buf[0] = '\0';*/ /* initialization */
+
     printf("Enter a word or a phrase (or \\q to quit): ");
-    if (fgets(buf, strlen(buf), stdin) == NULL) {
+    int ch;
+    while ((ch = getchar()) != '\n' && ch != EOF);
+    fgets(buf, strlen(buf), stdin);
+
+    printf("%d", (int)strlen(buf)) ;
+    /*if (!fgets(buf, strlen(buf), stdin)) {
         fprintf(stderr, "Error with input.\n");
         exit(1);
-    }
-    strcpy(buf,str);
+    }*/
+    
+    printf("%s\t", buf);
+    strlcpy(str, buf, sizeof(str));
 }
 
 void palindrome(char *str)
