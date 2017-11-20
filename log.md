@@ -14,3 +14,4 @@
 | 023 | Nov 16, 2017 | [golang playground intro](https://play.golang.org/p/v3rrZLwEUC) | Golang playground  |
 | 024 | Nov 17, 2017 | [hello world](https://play.golang.org/p/o2NYwbQ7Ig) | basic setup of a Go program: package fmt, import, main function  |
 | 025 | Nov 18, 2017 | [short declaration operator](https://play.golang.org/p/GF93YArR2B) | short declaration operator (`:=`)  |
+| 026 | Nov 19, 2017 | [var, type, fmt package](https://play.golang.org/p/f-up2o9wOO) | `var`, exploring type, zero value, `fmt` package, basic code setup, `%v`, format printing  |
