@@ -15,3 +15,4 @@
 | 024 | Nov 17, 2017 | [hello world](https://play.golang.org/p/o2NYwbQ7Ig) | basic setup of a Go program: package fmt, import, main function  |
 | 025 | Nov 18, 2017 | [short declaration operator](https://play.golang.org/p/GF93YArR2B) | short declaration operator (`:=`)  |
 | 026 | Nov 19, 2017 | [var, type, fmt package](https://play.golang.org/p/f-up2o9wOO) | `var`, exploring type, zero value, `fmt` package, basic code setup, `%v`, format printing  |
+| 027 | Nov 20, 2017 | [created own type](https://play.golang.org/p/1NqUFF242Y) [exercise 1](https://play.golang.org/p/mpZCr6B0z8) [exercise 2](https://play.golang.org/p/jzHwSlles9) [exercise 3](https://play.golang.org/p/QFctSQB_h3) [exercise 4](https://play.golang.org/p/OQyOGQcTPs) [exercise 5](https://play.golang.org/p/NgA-wXd98v) | created own type, conversion, ninga level 1 exercises 1 - 6 |
