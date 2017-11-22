@@ -16,3 +16,5 @@
 | 025 | Nov 18, 2017 | [short declaration operator](https://play.golang.org/p/GF93YArR2B) | short declaration operator (`:=`)  |
 | 026 | Nov 19, 2017 | [var, type, fmt package](https://play.golang.org/p/f-up2o9wOO) | `var`, exploring type, zero value, `fmt` package, basic code setup, `%v`, format printing  |
 | 027 | Nov 20, 2017 | [created own type](https://play.golang.org/p/1NqUFF242Y) [exercise 1](https://play.golang.org/p/mpZCr6B0z8) [exercise 2](https://play.golang.org/p/jzHwSlles9) [exercise 3](https://play.golang.org/p/QFctSQB_h3) [exercise 4](https://play.golang.org/p/OQyOGQcTPs) [exercise 5](https://play.golang.org/p/NgA-wXd98v) | created own type, conversion, ninga level 1 exercises 1 - 6 |
+| 028 | Nov 21, 2017 | [bool](https://play.golang.org/p/WmPsOkVzwS) [comparison](https://play.golang.org/p/HG3NreILQp) | `bool` type, comparisons, how computers work |
+| 029 | Nov 22, 2017 | [default int & float64](https://play.golang.org/p/qjYiYoiBwI) [int8](https://play.golang.org/p/Nua9rIzKHW) [runtime](https://play.golang.org/p/deN0M5G7Du) | numeric types: int & float64 are default, runtime package (`GOOS`, `GOARCH`)  |
