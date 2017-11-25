@@ -19,3 +19,4 @@
 | 028 | Nov 21, 2017 | [bool](https://play.golang.org/p/WmPsOkVzwS) [comparison](https://play.golang.org/p/HG3NreILQp) | `bool` type, comparisons, how computers work |
 | 029 | Nov 22, 2017 | [default int & float64](https://play.golang.org/p/qjYiYoiBwI) [int8](https://play.golang.org/p/Nua9rIzKHW) [runtime](https://play.golang.org/p/deN0M5G7Du) | numeric types: int & float64 are default, runtime package (`GOOS`, `GOARCH`)  |
 | 030 | Nov 23, 2017 | [string type](https://play.golang.org/p/9SgpJjsoBn) [numeral systems](https://play.golang.org/p/1kaxL0Maml) | string type & byte slices, utf-8, unicode, hex, numeral systems (decimal, binary, hexademical)  |
+| 031 | Nov 24, 2017 | [const](https://play.golang.org/p/xISTxvZbJR) [iota](https://play.golang.org/p/_cSkz_b28t) | `const` = constants, `iota` |
