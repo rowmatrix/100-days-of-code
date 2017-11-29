@@ -23,3 +23,4 @@
 | 032 | Nov 25, 2017 | [bit shifting](https://play.golang.org/p/RnTO3anfe3) | bit shifting |
 | 033 | Nov 26, 2017 | [1](https://play.golang.org/p/i1kgtAINMH) [2](https://play.golang.org/p/ePR4g0A_NW) [3](https://play.golang.org/p/8u_gmUkvoV) [4](https://play.golang.org/p/sSqnBris4Y) | ninja exercises 1 - 4 |
 | 034 | Nov 27, 2017 | [5](https://play.golang.org/p/TVud5fkJ99) [6](https://play.golang.org/p/tbptIrdSMm) | ninja exercises 5 - 7 |
+| 035 | Nov 28, 2017 | [for loop intro](https://play.golang.org/p/KGaFt09VB0) [nested loop](https://play.golang.org/p/v7jJrk42T1) [for loop - single condition](https://play.golang.org/p/Dc6fVAJPg4) | control flow, `for` loop, nested loops, for statement with single condition (acts like while loop) |
